@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "My Farm",
+    "slug": "my-farm-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/img.asset.webp",
+    "userInterfaceStyle": "light",
+    "scheme": "myfarmapp",
+    "splash": {
+      "image": "./assets/img.asset.webp",
+      "resizeMode": "contain",
+      "backgroundColor": "#4CAF50"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.my-farm-app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/img.asset.webp",
+        "backgroundColor": "#4CAF50"
+      }
+    },
+    "web": {
+      "favicon": "./assets/img.asset.webp"
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
