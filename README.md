@@ -1,26 +1,25 @@
-# MyFarm 
+# MyFarm App;
 
-A React Native application that displays a student identification card similar to the NSW driver license in Australia. The app features a professional design with student information, photo, and interactive elements.
+A React Native application that displays a Farm collection and tools for the population that can teach them how to save water and create their own food crops in Brazil. The app features a professional design with Farm information and interactive elements that could help a lot people in Caucaia, Ceará-Brazil.
 
 ## Features
 
-- **Professional ID Card Design**: Styled similar to NSW driver license with clean, official appearance
-- **Student Information Display**: Shows full name, student ID, course, expiry date, and status
-- **Photo Section**: Dedicated area for student photo with professional border
-- **Description Section**: Detailed student description and background information
-- **Interactive Welcome Button**: Generates an alert with welcome message when pressed
-- **Responsive Design**: Optimized for mobile devices with proper spacing and typography
+- **Professional Farm App to save coleection**: Styled with fruits and animals colletions
+- **Water Conservation Tips**: A dedicated section on how to use and save rainwater effictivelly
+- **Weather forecast**: A daily or weekly weather forecast, precditing temperatures, alerts for extreme weather
+- **Water-Wise Gardening Tools**: A colection of tools that help users know how much water thei need for their crops
+- **Sustainability Challenges**: A gamefield section where users can participate in challenges in how to save water
 - **Modern UI**: Clean, professional styling using StyleSheet
 
 ## Screenshots
 
 The app displays:
-- Header with "STUDENT IDENTIFICATION CARD" and university name
-- Student photo in a bordered container
-- Student details (name, ID, course, expiry, status)
-- Description section with student background
-- Footer with ownership and validity information
-- Welcome button for interaction
+- Professional Farm App to save collection
+- Water Conservation tips
+- Weather forecast
+- Water-Wise gardening tools
+- Sustainability challenges
+- Modern UI
 
 ## Installation
 
@@ -42,7 +41,7 @@ The app displays:
 ## Project Structure
 
 ```
-student-id-card/
+.expo/
 ├── app/
 │   ├── _layout.js        # Root layout for Expo Router
 │   └── index.js          # Main application component
@@ -73,7 +72,7 @@ You can easily customize the student information by modifying the values in `app
 ## Styling
 
 The app uses a comprehensive StyleSheet with:
-- NSW driver license-inspired color scheme (#0066CC blue)
+-A Farm Collection (#0066CC blue)
 - Professional typography with proper letter spacing
 - Shadow effects for depth
 - Responsive layout with flexbox
